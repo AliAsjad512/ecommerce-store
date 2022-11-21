@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+        integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+      </svg> -->
+
+    <title>Project 2</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<style>
+   
+</style>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <div class="container-fluid">
+            <h3 class="navbar-brand text-xl-start ms-3 text-white">Express</h3>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="#">
+                <i class="fa-regular fa-cart-shopping"></i>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 ms-5 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="home.html">Home</a>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="product.html">Product</a>
+                        </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact.html">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="cart.html"></a>
+                    </li>
+                </ul>
+                <a href="cart.html">
+                <div class="cart ms-auto mx-3">
+                   
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="35" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                      </svg>
+                </div></a>
+               
+                
+            </div>
+           
+        </div>
+    </nav>
+
+       
+
+ <section class="hero my-5">
+    <div class="conatiner">
+        <div class="row">
+            <div class="col-md-8">
+<h1>Shop our <span class="text-danger">special</span> edition collection to make your <span class="text-danger">fashion</span> unique</h1>
+              
+           <a href="product.html"><button class="btn" onclick="myFunction()">check now</button></a>
+            </div>
+        </div>
+    </div>
+
+ </section>
+
+  <section class="my-2">
+ <div class="container ">
+    <div class="row">
+      <div class="col-lg-4 py-1 text-center">
+        
+        <img src="./img/c_pant_girl.png" style="width: 350px;" alt="img">
+        <h2>Jean Pants</h2>
+    </div>
+
+    <div class="col-lg-4 py-2 text-center">
+        
+        <img src=" ./img/c_t-shirt_men.png" style="width: 350px;" alt="img">
+        <h2>Rath Lauren Shirt</h2>
+    </div>
+    <div class="col-lg-4 py-2 text-center">
+        
+        <img src="./img/c_polo-shirt.png" style="width: 350px;" alt="img">
+        <h2>Michael kors waisket</h2>
+    </div>
+
+     
+    </div>
+  </div> 
+</section>
+ 
+
+
+<section class="my-2">
+    <div class="container">
+       <div class="row">
+         <div class="col-lg-4 py-2 text-center">
+           
+           <img src="./img/8 (2).png" class="img-fluid" style="width: 350px;" alt="img">
+           <h2 class="text-center py-1"> Zara Jacket</h2>
+       </div>
+   
+       <div class="col-lg-4 py-2 text-center">
+           
+           <img src="./img/6.png " style="width: 350px;" alt="img">
+           <h2>Columbia Jackets</h2>
+       </div>
+       <div class="col-lg-4 py-2 text-center">
+           
+           <img src="./img/5.png" style="width: 350px;" alt="img">
+           <h2> The North Face Jackek</h2>
+       </div>
+   
+        
+       </div>
+     </div> 
+   </section>
+
+   <section class="my-2">
+    <div class="container">
+       <div class="row">
+         <div class="col-lg-4 py-2 text-center">
+           
+           <img src="./img/sn1.jpg" class="img-fluid" style="width: 350px;" alt="img">
+           <h2>Niki Sneaker</h2>
+       </div>
+   
+       <div class="col-lg-4 py-2 text-center">
+           
+           <img src="./img/sn2.jpg " style="height: 450px;" alt="img">
+           <h2>Adidas Sneaker</h2>
+       </div>
+       <div class="col-lg-4 py-2 text-center">
+           
+           <img src="./img/sn3.jpg" style="width: 350px;" alt="img">
+           <h2>Jordan Sneaker</h2>
+       </div>
+   
+        
+       </div>
+     </div> 
+   </section>
+
+
+
+</section>
+<section>
+<Footer class="p-2 bg-dark text-white text-center position-relative">
+ <div class="container">
+   <p class="lead">
+   copyright 
+
+   
+        
+    <div class="contacts">
+        <p>Connect With Express store </p>
+        <div class="row">
+            <div class="col">
+            <a href="#"><img src="./img/9.png" style="width:45px;"></a>
+            <a href="#"><img src="./img/10.png" style="width:45px;"></a>
+            <a href="#"><img src="./img/11.png" style="width:45px;"></a>
+            <a href="#"><img src="./img/81.png" style="width:45px;"></a>
+            <a href="#"><img src="./img/91.png" style="width:45px;"></a>
+            </div>
+        </div>
+    
+ 
+ </p>
+
+ </div>
+ 
+</Footer>
+
+
+</section>
+
+<script>
+    function myFunction() {
+      alert("We have different varities of shirts, shoes and jeans pants");
+    }
+    </script>
+
+</body>
+</html>
+   
+
+  
+
